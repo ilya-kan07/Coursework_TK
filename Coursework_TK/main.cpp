@@ -67,9 +67,6 @@ void func1(string str, object_table* tab1, int count) {  // функци€ проверки сло
 	cout << str << "\t";
 	cout << tab1->table_number << "\t";
 	cout << count << endl;
-
-
-
 }
 
 
@@ -140,9 +137,6 @@ int main()
 		}
 		Flag = false;
 	}
-
-
-
 	delete[] keywords;		// очищ€ем пам€ть 
 	delete[] separators;
 
