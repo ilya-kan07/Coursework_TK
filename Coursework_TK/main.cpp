@@ -4,7 +4,7 @@
 #include <sstream>
 using namespace std;
 
-bool Flag = false;
+bool Flag = false;						// флаг для 
 
 struct object_table {					// структура таблицы 										
 	int table_number;					// номер таблицы
@@ -122,7 +122,7 @@ int main()
 
 	int count = 1;
 
-	for (int i = 0; i < 6; i++) {
+	for (int i = 0; i < 6; i++) {						// с помощью циклов и флага проверяем к какой таблице относится каждое слово
 		for (int j = 0; j < 16; j++) {
 			func(arr[i], &keywords[j]);
 		}
